@@ -46,8 +46,8 @@ For this tutorial, we will be using our ViewHubModels sample as described in [pr
 - [FTP](https://docs.microsoft.com/en-us/azure/app-service/deploy-ftp)
 
 # Demo Screencast
-Watch this screencast demonstrating the above steps on the Azure Portal and CLI
-<iframe src="https://player.vimeo.com/video/308995999" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Watch this screencast demonstrating deploying our Node.js sample (since we're using Git to deploy the code, the steps are very similar - simply navigate to your .NET app on the CLI when deploying, and _**remember to create a API App instead of a Web App as opposed to the screencast**_) on the Azure Portal and CLI (the screencast is based on Bash but the commands involved would have been identical on Windows CLI and Powershell. And you can run Bash on Windows! See [this](http://mingw.org/wiki/msys) or [this](https://gitforwindows.org/) as part of Git or even try the [Linux Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h_b_te0Iza0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Try For Yourself
 - Adapt this sample app to the [.NET Core Framework](https://docs.microsoft.com/en-us/dotnet/core/) and deploy it as a [Azure Web App](deployment/azure/node)

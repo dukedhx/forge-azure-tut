@@ -1,3 +1,17 @@
+# What's Microsoft Azure?
+[Microsoft Azure](https://azure.microsoft.com/en-us/overview/what-is-azure/) is an ever-expanding set of cloud services to build, manage, and deploy applications on a massive, global network of Microsoft-managed data centers, using your favorite tools and frameworks. Azure provides a directory of hundreds of different services you can use, including software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, with both Microsoft-specific and third-party software and systems, encompassing full virtual machines, databases, file storage, backups, and services for mobile and web apps.
+![](../../_media/deployment/azure/1715.AzureArch.png)
+
+Azure is generally available in 42 regions around the world. Microsoft has announced an additional 12 regions to be opened soon (as of October 2018). Microsoft is the first hyper-scale cloud provider that has committed to building facilities on the continent of Africa with two regions located in South Africa. An Azure geography contains multiple Azure Regions, such as example “North Europe” (Dublin, Ireland), “West Europe” (Amsterdam, Netherlands). Where a location represents the city or area of the Azure Region. Each Azure Region is paired with another region within the same geography; this makes them a regional pair. In this example, Amsterdam and Dublin are the locations which form the regional-pair.
+![](../../_media/deployment/azure/dc-dist.png)
+
+You can manage your Azure account Build, manage, and monitor your cloud applications—and manage your account and billing, through the [Azure portal](https://azure.microsoft.com/en-us/account/). Another option is the Azure command-line interface (CLI), which is Microsoft's cross-platform command-line experience for managing Azure resources. Use it in your browser with Azure Cloud Shell, or install it on macOS, Linux, or Windows and run it from the command line. And here's its options:
+
+- To run in your browser with Azure Cloud Shell, see [Quickstart for Bash in Azure Cloud Shell or Quickstart](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart) for [PowerShell in Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart-powershell).
+- To install the CLI, see [Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).
+- To run as a Docker container, see [Run Azure CLI in a Docker Container](https://docs.microsoft.com/en-us/cli/azure/run-azure-cli-docker?view=azure-cli-latest)
+
+
 # What is Azure App Service?
 Azure App Service is a service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it .NET, .NET Core, Java, Ruby, Node.js, PHP, or Python. Applications run and scale with ease.
 
@@ -27,25 +41,6 @@ As a PaaS platform, Azure App Service enables you go through the different stage
 - Incredible insight into app usage
 
   The platform lets you determine user behavior and app utilization by analyzing the usage patterns and interactions. This way they would be able to focus on the features that users are most interested in, and improve the ones that were not popular.
-
-# Azure App Service vs AWS Elastic Beanstalk
-![](../../_media/deployment/azure/az_vs_aws.png)
-
-### Features
-- https://hackernoon.com/azure-app-service-vs-aws-elastic-beanstalk-a-comparison-of-paas-providers-2a73e37d6fa7
-- https://stackshare.io/stackups/aws-elastic-beanstalk-vs-azure-websites
-- https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
-
-### Architecture
-
-- AWS Elastic Beanstalk: When you deploy your application, Elastic Beanstalk provisions one or more AWS resources, such as Amazon EC2 instances. The software stack that runs on your Amazon EC2 instances depends on the configuration. For example, Elastic Beanstalk supports two configurations for the Java SE platform: one running Java 7, and the other running Java 8. Each runs a software stack tailored to hosting a Java application.
-
-- Azure App Service: App Service is fully managed, which means no administrative tasks are required to manage underlining compute infrastructures (servers) on which your applications run. You don’t need to worry about the underlining server maintenance as the platform patches the OS and frameworks for you. Your application runs on virtualized servers, but you should only care for setting the maximum number of server instances on which you want your application to run. Azure App Service will automatically handle assignment of applications to compute resources. The service will also automatically handle constraining the maximum number of running application instances based on the number of Workers setting for each individual application. As a result, increasing the numbers of Workers in the App Service Plan will not result in 50 app instances spinning up on each new available virtual machine.
-
-### Languages Supported
-- Azure App Service: The platform supports application development in PHP, .NET, .NET Core, Node.js, Python, Java and Ruby. Developers can use software developer kits (SDKs) and Visual Studio to create and deploy applications.
-
-- AWS Elastic Beanstalk: Allows users to create, deploy and scale web applications and services in a number of languages including Java, .NET, PHP, Node.js, Python, Ruby, Go and Docker on common servers, like Apache, Passenger, Nginx and IIS.
 
 ### Pricing
 ![](../../_media/deployment/azure/Pricing-Model-Comparison.png)

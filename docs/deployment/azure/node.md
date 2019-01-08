@@ -88,8 +88,8 @@ For this tutorial, we are going with ```Local Git``` to deploy our code.
 
 
 # Demo Screencast
-Watch this screencast demonstrating the above steps on the Azure Portal and CLI
-<iframe src="https://player.vimeo.com/video/308995999" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Watch this screencast demonstrating the above steps on the Azure Portal and CLI (the screencast is based on Bash but the commands involved would have been identical on Windows CLI and Powershell. And you can run Bash on Windows! See [this](http://mingw.org/wiki/msys) or [this](https://gitforwindows.org/) as part of Git or even try the [Linux Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h_b_te0Iza0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Try For Yourself
 - Post deployment automation and testing with [Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/javascript?view=vsts)

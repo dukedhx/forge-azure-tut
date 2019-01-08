@@ -29,8 +29,8 @@ Choose your language:  [.NET](https://forge.autodesk.com/blog/deploying-forge-as
 
 _Microsoft Azure App Service is a fully managed platform to quickly build, deploy, and scale enterprise-grade web, mobile, and API apps running on any platform._ [Learn more](https://azure.microsoft.com/en-us/services/app-service/).
 
-Introduction - [What's Azure App Service and why? And how does it compare to AWS Elastic Beanstalk](deployment/azure/)
+Introduction - [What's Azure and its App Service, and why?](deployment/azure/)
 
 Deployment - Choose your language:  [NodeJS](deployment/azure/node) | [.NET](deployment/azure/net)
 
-Advanced Topics - [ Custom domain name, Security, Load balancing, Backup and Restore, Elasticity and Autoscaling](deployment/advanced)
+Advanced Topics - [Custom domain name, Security, Load balancing, Backup and Restore, Elasticity and Autoscaling](deployment/advanced)
